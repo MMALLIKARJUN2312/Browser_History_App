@@ -1,0 +1,58 @@
+.history-item-container {
+  list-style-type: none;
+  display: flex;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin: 14px;
+}
+
+.history-details-container {
+  display: flex;
+}
+
+.time {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #64748b;
+}
+
+.app-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 55px;
+}
+
+.domain-logo {
+  height: 28px;
+  width: 28px;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 23px;
+  color: #475569;
+}
+
+.domain-url {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  color: #64748b;
+  margin-left: 16px;
+}
+
+.button-container {
+  display: flex;
+}
+
+.delete-button {
+  text-align: right;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
